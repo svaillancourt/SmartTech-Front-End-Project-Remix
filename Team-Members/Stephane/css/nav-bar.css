@@ -25,7 +25,7 @@ nav ul {
 }
 
 .nav-open ul {
-    max-height: calc( 50vh - 1.15rem );
+    max-height: calc( 60vh - 1.15rem );
     opacity: 0.5;
 }
 
