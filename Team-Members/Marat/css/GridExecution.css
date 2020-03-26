@@ -1,0 +1,60 @@
+
+.ProjectStatusReport {
+grid-column: 2/4;
+grid-row: 3/4;
+}
+
+.Monitorandcontrol {
+grid-column: 1/5;
+grid-row: 4/5;
+}
+
+.Keepthe {
+grid-column: 1/2;
+grid-row: 5/6;
+}
+
+.Monitorrisks {
+grid-column: 3/4;
+grid-row: 5/6;
+}
+
+.Capturelessons {
+grid-column: 2/3;
+grid-row: 6/7;
+}
+
+.Communicatewith {
+grid-column: 1/2;
+grid-row: 8/9;
+}
+
+.Assignresources {
+grid-column: 3/4;
+grid-row: 8/9;
+}
+
+.Procuregoods {
+grid-column: 4/5;
+grid-row: 8/9;
+}
+
+.Implementquality {
+grid-column: 1/2;
+grid-row: 10/11;
+}
+
+.Processchange {
+grid-column: 2/3;
+grid-row: 10/11;
+}
+
+.Performtesting {
+grid-column: 2/3;
+grid-row: 11/12;
+}
+
+.Delivertraining {
+grid-column: 3/4;
+grid-row: 12/13;
+}

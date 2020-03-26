@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+
+========== the stretching tabs ==========
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    /* color: #003399; */
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    height: 100vh;
+    flex-basis: 20%;
+    background-color: #fcf7f8;
+    margin-top: 2px;
+    border: 0.5vmin solid #17255a;
+    border-top: -5px;
+    justify-content: center;
+    align-items: top;
+    flex-basis: 20%;
+    transition: all 0.3s;
+    overflow: hidden;
+    /* overflow-x: ; */
+
+    
+}
+
+
+.btn {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fcf7f8;
+  background-color: #17255a;
+  border: none;
+  width: 300px;
+  height: 75px;
+  display: inline-block;
+  text-align: justify;
+
+}
+
+.item:focus {
+    flex-basis: 170%;
+}
+
+@media (max-width: 640px) {
+    .slider {
+        flex-flow: column;
+        height: 100vh;
+    }
+    
+    .item{
+        width: 100%;
+    }
+
+    .item:hover {
+        flex-grow: 50%;
+
+    }
+}
+
+a {
+color: #fcf7f8;
+}
