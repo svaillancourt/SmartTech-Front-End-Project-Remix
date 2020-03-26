@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive flowchart</title>
+<!-- ===============SCRIPTS================ -->
+    <script type="text/javascript" src="./js/tabsToClick.js" defer></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/modalWindow.js"></script>
+
+<!-- ===============STYLES================ -->
+    <link rel="stylesheet" href="css/normalize.css" >
+    <link rel="stylesheet" href="css/stretchingTabs.css" >
+    <link rel="stylesheet" href="css/modalWindow.css" >
+<!-- ===============GRIDS================ -->
+    <link rel="stylesheet" href="css/GridInitiation.css" >
+    <link rel="stylesheet" href="css/GridPre-project.css" >
+    <link rel="stylesheet" href="css/GridPlanning.css" >
+    <link rel="stylesheet" href="css/GridExecution.css" >
+    <link rel="stylesheet" href="css/GridClosing.css" >
+    <link rel="stylesheet" href="css/GridSize.css">
+<!-- ===============THE END OF GRIDS================ -->
+
+
+</head>
+
+<body>
+
+    <section class="slider">
+        <div class="item item-1">
+            <div class="container">
+            <div class="GridContainer">
+                <section class="generic PRE-PROJECT stageHeader">PRE-PROJECT</section>
+                <section class="generic OrgValidates stageSubtitle">Organization validates the need</section>
+                <section class="plan BusinessCase"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Business Case</a></section>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="item item-2">         
+            <div class="container">
+            <div class="GridContainer">
+                <section class="generic INITIATION stageHeader">INITIATION</section>
+                <section class="generic ProjectSponsorEtc stageSubtitle">Project Sponsor and Project Manager define the project</section>
+                <section class="plan ProjectCharter"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Project Charter</a></section>
+                <section class="plan StakeholderManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Stakeholder Management Plan</a></section>
+                <section class="tool StakeholderRegister"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Stakeholder Register</a></section>
+                <section class="tool StatementOfWork"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Statement of Work</a></section>
+            </div>
+            </div>
+         </div>
+
+        <div class="item item-3">
+            <div class="container">
+                <!-- <a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Fire </a> -->
+            <div class="GridContainer">
+                <section class="generic PLANNING stageHeader">PLANNING</section>
+                <section class="generic Plantheproject stageSubtitle">Plan the project</section>
+                <section class="plan ProjectManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Project Management Plan</a></section>
+                <section class="plan ScopeManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Scope Management Plan</a></section>
+                <section class="plan CostManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Cost Management Plan</a></section>
+                <section class="plan ScheduleManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Schedule Management Plan</a></section>
+                <section class="plan RiskManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Risk Management Plan</a></section>
+                <section class="tool WBS"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Work Breakdown Structure (WBS)</a></section>
+                <section class="tool ProjectBudget"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Project Budget</a></section>
+                <section class="tool ProjectSchedule"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Project Schedule</a></section>
+                <section class="tool RiskRegister"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Risk Register</a></section>
+                <section class="generic Baseline">Baseline</section>
+                <section class="plan CommunicationManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Communication Management Plan</a></section>
+                <section class="plan ResourceManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Resource Management Plan</a></section>
+                <section class="plan ProcurementManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Procurement Management Plan</a></section>
+                <section class="tool CommunicationMatrix"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Communication Matrix</a></section>
+                <section class="tool RAM"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">RAM (Resource Allocation Matrix, aka RACI)</a></section>
+                <section class="plan QualityManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Quality Management Plan</a></section>
+                <section class="plan TestManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Test Management Plan</a></section>
+                <section class="plan ChangeManagementPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Change Management Plan</a></section>
+                <section class="tool RequirementsMatrix"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Requirements Matrix</a></section>
+                <section class="tool ChangeRequest"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Change Request</a></section>
+                <section class="tool TestScript"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Test Script</a></section>
+                <section class="plan ImplementationPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Implementation Plan</a></section>
+                <section class="plan TrainingPlan"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Training Plan</a></section>
+            </div>
+            </div>
+        </div>
+
+        <div class="item item-4">
+            <div class="container">
+                <div class="GridContainer">
+                    <section class="generic EXECUTION stageHeader">EXECUTION</section>
+                    <section class="generic Monitorwork stageSubtitle">Monitor work to ensure it is being performed as planned</section>
+                    <section class="plan ProjectStatusReport"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Project Status Report</a></section>
+                        <section class="generic Monitorandcontrol">Monitor and control</section>
+                        <section class="instruction Keepthe"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Keep the project baseline up to date</a></section>
+                        <section class="instruction Monitorrisks"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Monitor risks and implement risk responses</a></section>
+                        <section class="instruction Capturelessons"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Capture lessons learned</a></section>
+                        <section class="instruction Communicatewith"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Communicate with stakeholders</a></section>
+                        <section class="instruction Assignresources"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Assign resources to work packages</a></section>
+                        <section class="instruction Procuregoods"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Procure goods and services</a></section>
+                        <section class="instruction Implementquality"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Implement quality measures and validation</a></section>
+                        <section class="instruction Processchange"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Process change requests, and update baseline</a></section>
+                        <section class="instruction Performtesting"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Perform testing</a></section>
+                        <section class="instruction Delivertraining"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Deliver training</a></section>
+                 </div>
+                </div>
+        </div>
+
+        <div class="item item-5">
+            <div class="container">
+            <div class="GridContainer">
+                <section class="generic CLOSING stageHeader">CLOSING</section>
+                <section class="generic FinishAnd stageSubtitle">Finish and close the project</section>
+                <section class="plan FinalProjectReport"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Final Project Report</a></section>
+                <section class="tool Satisfactionassessment"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Satisfaction assessment</a></section>
+                <section class="tool LessonsLearned"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Lessons Learned</a></section>
+                <section class="instruction Implementproject"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Implement project deliverables to organization</a></section>
+                <section class="instruction Reallocateresources"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Reallocate resources</a></section>
+                <section class="instruction Closeprocurementcontracts"><a href="#0" class="cd-btn" id="modal-trigger" data-type="cd-modal-trigger">Close procurement contracts</a></section>
+            </div>
+            </div>
+        </div>
+
+        <!-- --------- Modal Window by Vendor cd-modal --------- -->
+        <div class="cd-modal" data-modal="modal-trigger">
+            <div class="cd-svg-bg" 
+            data-step1="M-59.9,540.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L864.8-41c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L-59.5,540.6 C-59.6,540.7-59.8,540.7-59.9,540.5z" 
+            data-step2="M33.8,690l-188.2-300.3c-0.1-0.1,0-0.3,0.1-0.3l925.4-579.8c0.1-0.1,0.3,0,0.3,0.1L959.6,110c0.1,0.1,0,0.3-0.1,0.3 L34.1,690.1C34,690.2,33.9,690.1,33.8,690z" 
+            data-step3="M-465.1,287.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L459.5-294c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-464.9,287.7-465,287.7-465.1,287.5z" 
+            data-step4="M-329.3,504.3l-272.5-435c-0.1-0.1,0-0.3,0.1-0.3l925.4-579.8c0.1-0.1,0.3,0,0.3,0.1l272.5,435c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-329,504.5-329.2,504.5-329.3,504.3z" 
+            data-step5="M341.1,797.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L1265.8,216c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L341.5,797.6 C341.4,797.7,341.2,797.7,341.1,797.5z" 
+            data-step6="M476.4,1013.4L205,580.3c-0.1-0.1,0-0.3,0.1-0.3L1130.5,0.2c0.1-0.1,0.3,0,0.3,0.1l271.4,433.1c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C476.6,1013.6,476.5,1013.5,476.4,1013.4z">
+                <svg height="100%" width="100%" preserveAspectRatio="none" viewBox="0 0 800 500">
+                    <title>SVG Modal background</title>
+                    <path id="cd-changing-path-1" d="M-59.9,540.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L864.8-41c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L-59.5,540.6 C-59.6,540.7-59.8,540.7-59.9,540.5z"/>
+                    <path id="cd-changing-path-2" d="M-465.1,287.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L459.5-294c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3 l-925.4,579.8C-464.9,287.7-465,287.7-465.1,287.5z"/>
+                    <path id="cd-changing-path-3" d="M341.1,797.5l-0.9-1.4c-0.1-0.1,0-0.3,0.1-0.3L1265.8,216c0.1-0.1,0.3,0,0.3,0.1l0.9,1.4c0.1,0.1,0,0.3-0.1,0.3L341.5,797.6 C341.4,797.7,341.2,797.7,341.1,797.5z"/>
+                </svg>
+            </div>
+    
+            <div class="cd-modal-content">     
+                <p>Paywall to be here <br> Subscription options
+                </p>
+            </div> <!-- cd-modal-content -->
+    
+            <a href="#0" class="modal-close">Close</a>
+        </div>
+        <!-- --------- Modal Window by Vendor cd-modal --------- -->
+
+
+    </div>
+</body>
+</html>

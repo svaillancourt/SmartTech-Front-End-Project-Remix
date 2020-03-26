@@ -1,0 +1,98 @@
+/* -------------------------------- 
+
+Primary style of ALL THE STRETCHING TABS  
+
+-------------------------------- */ 
+*, *::after, *::before {
+box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+font-size: 1.6rem;
+font-family: "Roboto", sans-serif;
+color: #003399;
+background-color: #fcf7f8;
+}
+
+a {
+text-decoration: none;    
+}
+
+svg {
+max-width: 100%;
+}
+
+
+.container{
+margin-top: 2px;
+}
+
+.GridContainer
+{
+display: grid;
+grid-gap: 1vh;
+grid-template-columns: repeat(4, 16vw);
+grid-template-rows: 1fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+font-size: 13px;
+}
+
+.GridContainer > * {
+text-align: center;
+margin: 2px;
+}
+
+.stageHeader {
+grid-column: 1/5;
+grid-row: 1/2;
+overflow-wrap: normal;
+font-weight: 700;
+}
+
+.stageSubtitle {
+grid-column: 1/5;
+grid-row: 2/3;
+font-weight: 700;
+}
+
+
+/* ======== 3 sorts of blocks ========= */
+.instruction > * {
+border-radius: 1.5vmin;
+border: solid;
+border-color: #003399;
+}
+
+.tool > * {
+padding-top: 1vh;
+background-color: #fcf7f8;
+background-image: url(../img/nnToolBlue.svg);
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+border: none;
+}
+
+.plan > * {
+padding-top: 1.25vh;
+background-color: #fcf7f8;
+background-image: url(../img/nnPlanGrey.svg);
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+border: none;
+}
+
+.generic {
+background-color: #fcf7f8;
+}
+
+.Baseline {
+padding-top: 2.5vmin;
+background-image: url(../img/curlyBraceDn.svg);
+background-size: cover;
+}

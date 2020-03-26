@@ -1,0 +1,128 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+
+/* .generic{
+background-position: center;
+background-size: cover;
+} */
+
+.ProjectManagementPlan {
+grid-column: 2/4;
+grid-row: 3/4;
+}
+
+.ScopeManagementPlan {
+grid-column: 1/2;
+grid-row: 4/5;
+}
+
+.CostManagementPlan {
+grid-column: 2/3;
+grid-row: 4/5;
+}
+
+.ScheduleManagementPlan {
+grid-column: 3/4;
+grid-row: 4/5;
+}
+
+.RiskManagementPlan {
+grid-column: 4/5;
+grid-row: 4/5;
+}
+
+.WBS {
+grid-column: 1/2;
+grid-row: 5/6;
+}
+
+.ProjectBudget {
+grid-column: 2/3;
+grid-row: 5/6;
+}
+
+.ProjectSchedule {
+grid-column: 3/4;
+grid-row: 5/6;
+}
+
+.RiskRegister {
+grid-column: 4/5;
+grid-row: 5/6;
+}
+
+.Baseline {
+grid-column: 1/4;
+grid-row: 6/7;
+}
+
+.CommunicationManagementPlan{
+grid-column: 1/2;
+grid-row: 7/8;
+}
+
+.ResourceManagementPlan {
+grid-column: 2/3;
+grid-row: 7/8;
+}
+
+.ProcurementManagementPlan {
+grid-column: 3/4;
+grid-row: 7/8;
+}
+
+.CommunicationMatrix {
+grid-column: 1/2;
+grid-row: 8/9;
+}
+
+.RAM {
+grid-column: 2/3;
+grid-row: 8/9;
+}
+
+.QualityManagementPlan {
+grid-column: 1/2;
+grid-row: 9/10;
+}
+
+.TestManagementPlan {
+grid-column: 2/3;
+grid-row: 9/10;
+}
+
+.ChangeManagementPlan {
+grid-column: 3/4;
+grid-row: 9/10;
+}
+
+.RequirementsMatrix {
+grid-column: 2/3;
+grid-row: 10/11;
+}
+
+.ChangeRequest {
+grid-column: 3/4;
+grid-row: 10/11;
+}
+
+.TestScript {
+grid-column: 2/3;
+grid-row: 11/12;
+}
+
+.ImplementationPlan {
+grid-column: 1/2;
+grid-row: 12/13;
+}
+
+.TrainingPlan {
+grid-column: 3/4;
+grid-row: 12/13;
+}
+
+            
