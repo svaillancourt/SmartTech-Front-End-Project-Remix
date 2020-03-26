@@ -1,0 +1,37 @@
+Projematic Color Palette 
+
+Projematic Blue hex  
+Logo, key screen components, large text 
+color: rgb(O,51,153);
+color: #003399;
+
+
+Projematic Aqua hex
+Logo, screen accents, flowchart boxes 
+color: rgb(O,230,230);
+color: #00E6E6;
+
+
+Projematic Text 
+Small text 
+color: rgb(23,37,90);
+color: #17255A;
+
+
+Projematic Background 
+color: rgb(252, 247, 248);
+color: #FCF7F8;
+
+
+Projematic Grey #COC6DO 
+color: rgb(192, 198, 208);
+
+Background or shading where appropriate 
+
+Projematic red #FF3300 
+VERY occasional use to draw attention 
+
+color: rgb(255, 51, 0);
+
+Background, text on dark background 
+
