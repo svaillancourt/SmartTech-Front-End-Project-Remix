@@ -1,0 +1,157 @@
+*
+{
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    
+
+}
+
+body{
+    text-align: center;
+    padding-top: 200px;
+     background-color:#FCF7F8;
+    color: #17255A;
+    display: grid;
+    
+}
+ul
+{
+    list-style-type: none;
+}
+   
+
+#Email
+{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+#pwd
+{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#pwd2
+{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+#button
+{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    background-color:#003399;
+    color:#FCF7F8;
+}
+
+
+#uname
+{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+#Remember
+{
+    margin-top: 7px;
+    position: relative;
+}
+
+/*
+.edit-form
+{
+    box-shadow: 0 0 20px 2px;
+    margin: 12% auto;
+    padding: 50px 0;
+    width: 700px;
+}
+*/
+.title 
+    {
+         grid-area: title; 
+        background: #FCF7F8;
+        background-position: top;
+        margin-top: 8vh;
+        position: relative;  
+        text-align: center;  
+        padding-top: 10px;
+ }
+
+   
+
+
+.content1 { 
+        grid-area: content1; 
+}
+
+.content2 { 
+        grid-area: content2; 
+}
+
+.content3 
+{
+        grid-area: content3;
+ }
+
+ .bg1{
+        grid-area: bg1;
+    }   
+
+.bg2{
+        grid-area: bg2;
+     }  
+
+.bg3{
+        grid-area: bg3;
+     }   
+
+.bg4{
+        grid-area: bg4;
+     } 
+
+
+
+    @media screen and ( min-width: 500px ) {
+
+        body {
+                grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%; /* based on the number of columns */
+                grid-template-rows: auto auto auto auto ;  /* based on the number of rows */
+                grid-template-areas:
+                "title title title title title title" /* row 1 */
+                "content1 content1 content2 content2 content3 content3" /* row 2 */
+            }
+        }
+        
+        /* Desktop size */
+        
+        @media screen and ( min-width: 1024px ) {
+           
+        body {     
+                grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; /* based on the number of columns */
+                grid-template-rows: auto auto auto ;  /* based on the number of rows */
+                grid-template-areas:
+                "bg1 title title title title title title bg2" /* row 1 */
+                "bg3 content1 content1 content2 content2 content3 content3 bg4" /* row 2 */
+                }
+        }
